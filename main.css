@@ -231,6 +231,17 @@ li:hover{ font-weight:bold;}
     font-size: small;
   }
 
+  input[type="submit"],[type="reset"]
+  {
+      width: 100px;
+      background: #76b4bd;
+      color: black;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 18px;
+  }
+
 
 /* Navigation Bounce Animation  Start*/
 

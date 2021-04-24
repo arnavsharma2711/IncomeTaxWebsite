@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Income Tax Department of India</title>
+        <title>Registration | Income Tax Department of India</title>
         <link rel="stylesheet" href="main.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -56,6 +56,16 @@
 			grid-template-columns: 1fr 1fr;
 			text-align: center;
 		}
+        button {
+                background-color: Transparent;
+                background-repeat:no-repeat;
+                cursor:pointer;
+                font-family: 'Bebas Neue', cursive;
+                font-size:xx-large;
+                text-decoration: none;
+                color: #536162 ;
+        }
+
     </style>
         <script>
             // DOM ready
@@ -153,7 +163,14 @@
 				<td>Mobile no.</td>
 				<td><input type="number" Name="mobile no." placeholder="+91 12345 12345"></td>
 			</tr>
-			
+            <tr>
+                <td colspan="2" style="text-align: center;" > 
+                    <input type="reset" value="RESET">
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="submit" value="SUBMIT">
+                </td>
+            </tr>
+            
 				
 			</tbody>
 		</table>
@@ -161,14 +178,13 @@
 			<p class="text4">Instruction</p>
 			<hr class="dots">
 			<p class="text5">&#x1F449;Fields marked with asterisk(<red>*</red>) are mandotory</p>
-			<button style="margin-top: 40px; margin-left: 30%;" type="reset">Reset</button>
-			<button type="submit">Submit</button>	
+	
 
 			<br><br>
 			<p class="text5" style="text-align: center;">Already have an account.</p>
 					<div class="grid2">
-						<div><a href="login.html"><p>Login</p></a></div>
-						<div><a href="recover.html"><p>Recover</p></a></div>
+						<div><a href="login.html"><span>Login</span></a></div>
+						<div><a href="recover.html"><span>Recover</span></a></div>
 					</div>
 		</div>
 	</div>
